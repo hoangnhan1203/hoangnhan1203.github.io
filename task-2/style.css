@@ -1,0 +1,172 @@
+body {
+   margin: 0;
+   font-family: 'Shippori Mincho B1', serif;
+}
+img {
+   width: 100%;
+}
+/******* Header *******/
+.header {
+   background-color: #282d30;
+   display: flex;
+   color: #f48847;
+   height: 45px;
+   padding-left: 60px;
+   padding-right: 60px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+.header a {
+   text-decoration: none;
+   color: #f48847;
+   font-size: 17px;
+}
+.navbar {
+   width: 33%;
+   display: flex;
+   align-items: center;
+}
+.navbar ul {
+   text-decoration: none;
+   display: flex;
+   list-style: none;
+   padding-left: 0px;
+}
+.navbar ul li {
+   padding-right: 20px;
+   margin-left: 0px;
+}
+.brand-name {
+   width: 34%;
+   font-size: 32px;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+.icon-container-header {
+   width: 33%;
+   display: flex;
+   align-items: center;
+}
+.icon-container-header ul {
+   display: flex;
+   list-style: none;
+   float: right;
+   padding-left: 200px;
+}
+.icon-container-header ul > li {
+   margin-left: 30px;
+}
+.icon-container-header ul > li > a > i {
+   color: #f48847;
+   font-size: px;
+}
+
+/******* Content *******/
+
+.content-1 {
+   padding-left: 60px;
+   padding-right: 60px;
+   padding-top: 100px;
+   padding-bottom: 100px; 
+   background-color: #282d30;
+   font-family: 'Playfair Display', serif;
+}
+
+.content-1 {
+   text-align: center;
+}
+.big-text-1 {
+   margin-bottom: 30px;
+   color: #f48847; 
+   font-size: 64px;
+   font-weight: 500;
+   letter-spacing: 1px;
+}
+.small-text-1 {
+   color: #ffffff;
+   font-size: 20px;
+   font-style: italic;
+   font-weight: 400;
+}
+.image-1 {
+   padding: 60px;
+   background-color: #282d30; 
+}
+
+
+/******* Footer *******/
+
+.footer {
+   padding-left: 60px;
+   padding-right: 60px;
+   padding-top: 48px;
+   padding-bottom: 48px;
+   background-color: #282d30;
+}
+.icon-container-footer > ul {
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 10px;
+   padding-right: 10px;
+   padding-left: 10px;
+   margin: 0px;
+}
+.icon-container-footer ul li {
+   margin-right: 10px;
+   margin-left: 10px;
+}
+.icon-container-footer ul li a i {
+   color: #ffffff;
+   font-size: 20px;
+}
+.sign-up-invite {
+   padding: 15px;
+}
+.sign-up-invite .text {
+   padding-top: 20px;
+   padding-bottom: 40px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+   color: white;
+   font-size: 15px;
+}
+
+.email-container {
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   display: flex;
+}
+.email-input-container {
+   padding-right: 10px;
+}
+.email-input {
+   padding-top: 21px;
+   padding-bottom: 21px;
+   padding-left: 30px;
+   padding-right: 30px;
+   font-size: 13px;
+}
+.email-container button {
+   padding-top: 21px;
+   padding-bottom: 21px;
+   padding-left: 30px;
+   padding-right: 30px;
+   background-color: #f48847; 
+   color: #ffffff;
+   border: 0;
+}
+.signature-container {
+   padding: 30px;
+   color: white;
+   text-align: center;
+   font-style: italic;
+}
+.hoangnhan1203 {
+   text-decoration: none;
+   color: #ffff00;
+}
