@@ -1,0 +1,38 @@
+body {
+   margin: 0;
+}
+.header {
+   padding: 0px 0px;
+   margin: 0px;
+   height: 50px;
+   background-color: #333333;
+   color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   font-family: monospace;
+   font-size: 20px;
+}
+
+.content-container {
+   padding: 40px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+   align-content: space-around;
+}
+
+.break {
+   flex-basis: 100%;
+ }
+
+.items-container {
+   width: 48%;
+}
+.items-container img {
+   width: 100%;
+   object-fit: cover;
+}
