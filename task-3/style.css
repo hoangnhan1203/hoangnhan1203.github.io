@@ -31,8 +31,68 @@ body {
 
 .items-container {
    width: 48%;
+   padding: 24px 0px;
 }
 .items-container img {
    width: 100%;
    object-fit: cover;
+   opacity: 1;
+}
+.text .title {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 800;
+   font-size: 30px;
+   height: 90px;
+   padding: 5px 0px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.text .title:hover {
+   color: rgb(255, 128, 159);
+}
+.text .date-post {
+   font-family: 'Karla', sans-serif;
+   color: rgb(100, 100, 100);
+   height: 20px;
+   padding: 2px 0px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.text .preview {
+   font-family: 'Cormorant Garamond', serif;
+   font-style: italic;
+   font-size: 20px;
+   font-weight: 300;
+   height: 100px;
+   padding: 10px 0px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.text .read-more {
+   font-family: 'Cormorant Garamond', serif;
+   font-weight: 500;
+   font-style: italic;
+   font-size: 20px;
+}
+.text .extra-info ul {
+   list-style: none;
+   font-family: 'Karla', sans-serif;
+   display: flex;
+   padding-top: 20px;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+   margin: 0;
+   align-items: center;
+   justify-content: center;
+}
+.text .extra-info ul li {
+   padding: 0 10px;
+}
+
+.items-container img:hover {
+   opacity: 0.6;
 }
